@@ -1,3 +1,7 @@
+import TemperatureConverter.*
 fun main() {
-    println("Hello World!")
+    var temp = 33.0
+    TemperatureConverter.fahrenheitConverter(temp)
+    TemperatureConverter.KalvinConverter(temp)
+    TemperatureConverter.CelsuisConverter(temp)
 }
